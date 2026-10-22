@@ -1,0 +1,46 @@
+Student ID: 230103379
+Items: 1000 (indices 0..999); worker threads: 4
+Workload: sleep(0.0001 * (i % 20)) seconds per item.
+Dynamic scheduling: shared atomic next-item queue, chunks of 1 and 5.
+OS sleep precision and scheduling affect observed times.
+The specified periodic costs make static block loads nearly balanced:
+requested sleep is 232.5, 242.5, 232.5, 242.5 ms; dynamic need not be faster.
+
+Strategy: A: Static contiguous blocks (250 items each)
+Total execution time, creation through joins (ms): 306.265
+Execution time, release through last completion (ms): 300.688
+First thread completion after release (ms): 283.306
+Last thread completion after release (ms): 300.688
+Min/max thread completion delta (ms): 17.382
+Worker | Items | Requested sleep (ms) | Completion (ms)
+     0 |   250 |              232.500 |         283.306
+     1 |   250 |              242.500 |         300.688
+     2 |   250 |              232.500 |         284.846
+     3 |   250 |              242.500 |         298.293
+Validation: all 1000 items processed exactly once.
+
+Strategy: B: Dynamic scheduling (chunk size 1)
+Total execution time, creation through joins (ms): 303.879
+Execution time, release through last completion (ms): 303.689
+First thread completion after release (ms): 301.986
+Last thread completion after release (ms): 303.689
+Min/max thread completion delta (ms): 1.703
+Worker | Items | Requested sleep (ms) | Completion (ms)
+     0 |   255 |              235.700 |         301.986
+     1 |   282 |              239.500 |         303.689
+     2 |   230 |              237.900 |         302.769
+     3 |   233 |              236.900 |         302.895
+Validation: all 1000 items processed exactly once.
+
+Strategy: B: Dynamic scheduling (chunk size 5)
+Total execution time, creation through joins (ms): 296.637
+Execution time, release through last completion (ms): 296.470
+First thread completion after release (ms): 286.112
+Last thread completion after release (ms): 296.470
+Min/max thread completion delta (ms): 10.359
+Worker | Items | Requested sleep (ms) | Completion (ms)
+     0 |   280 |              241.000 |         296.470
+     1 |   210 |              239.500 |         292.690
+     2 |   305 |              231.000 |         286.112
+     3 |   205 |              238.500 |         290.463
+Validation: all 1000 items processed exactly once.
