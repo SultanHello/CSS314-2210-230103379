@@ -1,0 +1,13 @@
+Student ID: 230103379
+OS: Mac OS X 15.6
+Platform architecture: aarch64
+Logical cores (availableProcessors): 10
+Seed: 230103379
+Elements: 20000000
+Data type: float64 (Java double, 64 bits)
+Distribution: uniform [0, 1)
+Execution: single thread (serial loops on main thread)
+Sum: 10001296.607893854
+Population standard deviation (ddof=0): 0.28866653801435020
+Serial computation wall-clock time (ms): 80.701
+Total wall-clock time, generation + computation (ms): 845.838
