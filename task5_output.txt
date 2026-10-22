@@ -1,0 +1,25 @@
+Student ID: 230103379
+OS: Mac OS X 15.6; architecture: aarch64
+Java: 21.0.12.1; JVM: OpenJDK 64-Bit Server VM
+Available logical CPUs / pool threads: 10
+Operation: double y[i] = 1.75 * x[i] + 0.25
+Serial: calling thread; parallel: fixed pool, one contiguous block per worker.
+Timing includes task submission, scheduling and waiting; excludes allocation,
+pool startup, input initialization, verification and JVM warm-up.
+Each result is the median of 21 batches, normalized per vector operation.
+Batches calibrated independently to >=3 ms (cap 65536 operations).
+Serial/parallel measurement order alternates to reduce ordering bias.
+
+         N |    Serial us |  Parallel us |  Speedup |    Winner |   Batch S/P
+       100 |        0.012 |        7.436 |    0.002 |    serial | 65536/512  
+      1000 |        0.123 |        6.329 |    0.019 |    serial | 32768/512  
+     10000 |        1.219 |        8.526 |    0.143 |    serial |  4096/512  
+    100000 |       12.679 |       21.073 |    0.602 |    serial |   256/128  
+   1000000 |      130.030 |      110.303 |    1.179 |  parallel |    32/32   
+  10000000 |     2027.688 |     1769.875 |    1.146 |  parallel |     2/2    
+
+Validation: both outputs match the expected value at every index for every N.
+Observed slower-to-faster crossover bracket: 100000 < N <= 1000000.
+Brackets refer to adjacent tested sizes, not an exact integer threshold.
+Scheduling, cache residency, memory bandwidth and CPU frequency can change results;
+a monotonic crossover is not assumed. Re-run to assess measurement variability.
