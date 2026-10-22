@@ -1,0 +1,31 @@
+Student ID: 230103379
+OS: Mac OS X 15.6; architecture: aarch64; Java: 21.0.12.1
+Available logical CPUs: 10
+Threads: 4; attempted increments per thread: 2000000
+Expected final value: 8000000
+Unsafe: ordinary shared int with counter++; no locks, volatile or atomics.
+Correct: AtomicInteger.incrementAndGet(), an atomic read-modify-write.
+Timing: release of ready workers through all joins; excludes thread creation.
+Three warm-up pairs; seven measured pairs with alternating execution order.
+
+Round | Unsafe actual | Updates lost |   Unsafe ms | Atomic actual |   Atomic ms
+    1 |       2900336 |      63.746% |       0.217 |       8000000 |      50.013
+    2 |       2038401 |      74.520% |       0.231 |       8000000 |      53.733
+    3 |       2636097 |      67.049% |       0.205 |       8000000 |      54.025
+    4 |       2967537 |      62.906% |       0.201 |       8000000 |      49.330
+    5 |       2206112 |      72.424% |       0.212 |       8000000 |      45.280
+    6 |       2492369 |      68.845% |       0.205 |       8000000 |      59.008
+    7 |       2453376 |      69.333% |       0.196 |       8000000 |      45.314
+
+Median unsafe wall-clock time (ms): 0.205
+Median atomic wall-clock time (ms): 50.013
+Synchronization time penalty, atomic - unsafe (ms): +49.808
+Atomic / unsafe time ratio: 244.016x
+Relative time penalty: +24301.605%
+Validation: atomic counter equals 8000000 in every measured round.
+counter++ is a read-modify-write sequence; competing threads overwrite updates.
+The plain counter has a data race: JIT optimizations and scheduling affect losses
+and timing; a run with no observed loss would not prove correctness.
+The penalty compares correct atomic work with incorrect racy work, not an isolated
+mutex cost. AtomicInteger uses atomic primitives rather than an explicit mutex;
+contention and cache-coherence traffic contribute to its wall-clock cost.
