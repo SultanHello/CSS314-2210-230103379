@@ -1,0 +1,19 @@
+Student ID: 230103379
+Physical cores / worker threads: 10
+Logical cores: 10
+Cache line size (bytes): 128
+Increments per thread: 50000000
+Unpadded shared_counts length: 10
+Padded counter spacing (bytes): 128
+Shared and padded: identical volatile array reads/writes via VarHandle.
+Local: private counter with one final array write; JIT may simplify the loop.
+Timing includes release and joins; excludes thread creation and warm-up.
+
+Unpadded Shared wall-clock time (ms): 5516.905
+Local wall-clock time (ms): 2.952
+Padded wall-clock time (ms): 114.893
+Execution ratio Unpadded / Local: 1868.818x
+Execution ratio Unpadded / Padded: 48.018x
+Validation: every counter equals 50000000 in all three runs.
+Ratios are observations from one run; scheduling and CPU frequency affect results.
+Unpadded/Local also includes volatile-access and JIT effects; padded comparison better isolates false sharing.
