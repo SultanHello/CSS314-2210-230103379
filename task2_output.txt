@@ -1,0 +1,17 @@
+Student ID: 230103379
+OS: Mac OS X 15.6; architecture: aarch64
+Logical cores (availableProcessors): 10
+Elements: 20000000; type: float64 (Java double)
+Seed: 230103379; distribution: uniform [0, 1)
+Reference serial sum: 10001296.607893854
+Timing: summation including pool creation, dispatch, reduction and shutdown.
+Array generation and warm-up excluded; median of 5 measured runs.
+Amdahl: 1 / (0.05 + 0.95 / workers), P = 0.95.
+  Cores | Wall Time (ms) |    Speedup | Amdahl Upper Bound
+      1 |         38.877 |      1.000 |              1.000
+      2 |         19.715 |      1.972 |              1.905
+      4 |         11.159 |      3.484 |              3.478
+     10 |          7.599 |      5.116 |              6.897
+     20 |          7.553 |      5.147 |             10.256
+All measured sums match the serial reference within relative tolerance 1e-12.
+Amdahl values assume a 5% serial fraction; actual hardware and overhead may differ.
