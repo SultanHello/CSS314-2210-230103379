@@ -1,0 +1,10 @@
+{
+  "platform": "macOS-15.6-arm64-arm-64bit",
+  "machine": "arm64",
+  "python": "3.12.14",
+  "logical_cpus": 10,
+  "physical_cpus": null,
+  "memory_bytes": null,
+  "start_method": "spawn",
+  "note": "Physical CPU count, processor model and memory could not be queried: host sysctl access is restricted."
+}
