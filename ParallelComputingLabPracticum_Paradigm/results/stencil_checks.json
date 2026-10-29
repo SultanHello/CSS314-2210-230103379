@@ -1,0 +1,272 @@
+[
+  {
+    "study": "strong",
+    "P": 1,
+    "N": 1472,
+    "run": 1,
+    "max_abs_error": 0.0,
+    "checksum": 1080756.7777198507,
+    "passed": true
+  },
+  {
+    "study": "strong",
+    "P": 1,
+    "N": 1472,
+    "run": 2,
+    "max_abs_error": 0.0,
+    "checksum": 1080756.7777198507,
+    "passed": true
+  },
+  {
+    "study": "strong",
+    "P": 1,
+    "N": 1472,
+    "run": 3,
+    "max_abs_error": 0.0,
+    "checksum": 1080756.7777198507,
+    "passed": true
+  },
+  {
+    "study": "strong",
+    "P": 2,
+    "N": 1472,
+    "run": 1,
+    "max_abs_error": 0.0,
+    "checksum": 1080756.7777198507,
+    "passed": true
+  },
+  {
+    "study": "strong",
+    "P": 2,
+    "N": 1472,
+    "run": 2,
+    "max_abs_error": 0.0,
+    "checksum": 1080756.7777198507,
+    "passed": true
+  },
+  {
+    "study": "strong",
+    "P": 2,
+    "N": 1472,
+    "run": 3,
+    "max_abs_error": 0.0,
+    "checksum": 1080756.7777198507,
+    "passed": true
+  },
+  {
+    "study": "strong",
+    "P": 4,
+    "N": 1472,
+    "run": 1,
+    "max_abs_error": 0.0,
+    "checksum": 1080756.7777198507,
+    "passed": true
+  },
+  {
+    "study": "strong",
+    "P": 4,
+    "N": 1472,
+    "run": 2,
+    "max_abs_error": 0.0,
+    "checksum": 1080756.7777198507,
+    "passed": true
+  },
+  {
+    "study": "strong",
+    "P": 4,
+    "N": 1472,
+    "run": 3,
+    "max_abs_error": 0.0,
+    "checksum": 1080756.7777198507,
+    "passed": true
+  },
+  {
+    "study": "strong",
+    "P": 8,
+    "N": 1472,
+    "run": 1,
+    "max_abs_error": 0.0,
+    "checksum": 1080756.7777198507,
+    "passed": true
+  },
+  {
+    "study": "strong",
+    "P": 8,
+    "N": 1472,
+    "run": 2,
+    "max_abs_error": 0.0,
+    "checksum": 1080756.7777198507,
+    "passed": true
+  },
+  {
+    "study": "strong",
+    "P": 8,
+    "N": 1472,
+    "run": 3,
+    "max_abs_error": 0.0,
+    "checksum": 1080756.7777198507,
+    "passed": true
+  },
+  {
+    "study": "strong",
+    "P": 10,
+    "N": 1472,
+    "run": 1,
+    "max_abs_error": 0.0,
+    "checksum": 1080756.7777198507,
+    "passed": true
+  },
+  {
+    "study": "strong",
+    "P": 10,
+    "N": 1472,
+    "run": 2,
+    "max_abs_error": 0.0,
+    "checksum": 1080756.7777198507,
+    "passed": true
+  },
+  {
+    "study": "strong",
+    "P": 10,
+    "N": 1472,
+    "run": 3,
+    "max_abs_error": 0.0,
+    "checksum": 1080756.7777198507,
+    "passed": true
+  },
+  {
+    "study": "weak",
+    "P": 1,
+    "N": 1472,
+    "run": 1,
+    "max_abs_error": 0.0,
+    "checksum": 1080756.7777198507,
+    "passed": true
+  },
+  {
+    "study": "weak",
+    "P": 1,
+    "N": 1472,
+    "run": 2,
+    "max_abs_error": 0.0,
+    "checksum": 1080756.7777198507,
+    "passed": true
+  },
+  {
+    "study": "weak",
+    "P": 1,
+    "N": 1472,
+    "run": 3,
+    "max_abs_error": 0.0,
+    "checksum": 1080756.7777198507,
+    "passed": true
+  },
+  {
+    "study": "weak",
+    "P": 2,
+    "N": 2082,
+    "run": 1,
+    "max_abs_error": 0.0,
+    "checksum": 2162927.1777592883,
+    "passed": true
+  },
+  {
+    "study": "weak",
+    "P": 2,
+    "N": 2082,
+    "run": 2,
+    "max_abs_error": 0.0,
+    "checksum": 2162927.1777592883,
+    "passed": true
+  },
+  {
+    "study": "weak",
+    "P": 2,
+    "N": 2082,
+    "run": 3,
+    "max_abs_error": 0.0,
+    "checksum": 2162927.1777592883,
+    "passed": true
+  },
+  {
+    "study": "weak",
+    "P": 4,
+    "N": 2944,
+    "run": 1,
+    "max_abs_error": 0.0,
+    "checksum": 4327877.488124872,
+    "passed": true
+  },
+  {
+    "study": "weak",
+    "P": 4,
+    "N": 2944,
+    "run": 2,
+    "max_abs_error": 0.0,
+    "checksum": 4327877.488124872,
+    "passed": true
+  },
+  {
+    "study": "weak",
+    "P": 4,
+    "N": 2944,
+    "run": 3,
+    "max_abs_error": 0.0,
+    "checksum": 4327877.488124872,
+    "passed": true
+  },
+  {
+    "study": "weak",
+    "P": 8,
+    "N": 4164,
+    "run": 1,
+    "max_abs_error": 0.0,
+    "checksum": 8661260.224307265,
+    "passed": true
+  },
+  {
+    "study": "weak",
+    "P": 8,
+    "N": 4164,
+    "run": 2,
+    "max_abs_error": 0.0,
+    "checksum": 8661260.224307265,
+    "passed": true
+  },
+  {
+    "study": "weak",
+    "P": 8,
+    "N": 4164,
+    "run": 3,
+    "max_abs_error": 0.0,
+    "checksum": 8661260.224307265,
+    "passed": true
+  },
+  {
+    "study": "weak",
+    "P": 10,
+    "N": 4655,
+    "run": 1,
+    "max_abs_error": 0.0,
+    "checksum": 10825490.820539147,
+    "passed": true
+  },
+  {
+    "study": "weak",
+    "P": 10,
+    "N": 4655,
+    "run": 2,
+    "max_abs_error": 0.0,
+    "checksum": 10825490.820539147,
+    "passed": true
+  },
+  {
+    "study": "weak",
+    "P": 10,
+    "N": 4655,
+    "run": 3,
+    "max_abs_error": 0.0,
+    "checksum": 10825490.820539147,
+    "passed": true
+  }
+]

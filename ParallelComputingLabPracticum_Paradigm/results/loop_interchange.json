@@ -1,0 +1,24 @@
+{
+  "ijk": {
+    "runs_ns": [
+      229815833,
+      230904500,
+      232301250
+    ],
+    "median_ns": 230904500
+  },
+  "ikj": {
+    "runs_ns": [
+      53290958,
+      53058583,
+      52939458
+    ],
+    "median_ns": 53058583
+  },
+  "N": 1472,
+  "M": 736,
+  "speedup": 4.351878375643767,
+  "max_abs_error": 0.0,
+  "passed": true,
+  "backend": "ctypes C loops, identical scalar addition order; no BLAS"
+}

@@ -1,0 +1,566 @@
+[
+  {
+    "variant": "unpadded",
+    "P": 1,
+    "run": 1,
+    "counts": [
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "unpadded",
+    "P": 1,
+    "run": 2,
+    "counts": [
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "unpadded",
+    "P": 1,
+    "run": 3,
+    "counts": [
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "unpadded",
+    "P": 2,
+    "run": 1,
+    "counts": [
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "unpadded",
+    "P": 2,
+    "run": 2,
+    "counts": [
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "unpadded",
+    "P": 2,
+    "run": 3,
+    "counts": [
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "unpadded",
+    "P": 4,
+    "run": 1,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "unpadded",
+    "P": 4,
+    "run": 2,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "unpadded",
+    "P": 4,
+    "run": 3,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "unpadded",
+    "P": 8,
+    "run": 1,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "unpadded",
+    "P": 8,
+    "run": 2,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "unpadded",
+    "P": 8,
+    "run": 3,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded64",
+    "P": 1,
+    "run": 1,
+    "counts": [
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded64",
+    "P": 1,
+    "run": 2,
+    "counts": [
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded64",
+    "P": 1,
+    "run": 3,
+    "counts": [
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded64",
+    "P": 2,
+    "run": 1,
+    "counts": [
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded64",
+    "P": 2,
+    "run": 2,
+    "counts": [
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded64",
+    "P": 2,
+    "run": 3,
+    "counts": [
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded64",
+    "P": 4,
+    "run": 1,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded64",
+    "P": 4,
+    "run": 2,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded64",
+    "P": 4,
+    "run": 3,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded64",
+    "P": 8,
+    "run": 1,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded64",
+    "P": 8,
+    "run": 2,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded64",
+    "P": 8,
+    "run": 3,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded128",
+    "P": 1,
+    "run": 1,
+    "counts": [
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded128",
+    "P": 1,
+    "run": 2,
+    "counts": [
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded128",
+    "P": 1,
+    "run": 3,
+    "counts": [
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded128",
+    "P": 2,
+    "run": 1,
+    "counts": [
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded128",
+    "P": 2,
+    "run": 2,
+    "counts": [
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded128",
+    "P": 2,
+    "run": 3,
+    "counts": [
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded128",
+    "P": 4,
+    "run": 1,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded128",
+    "P": 4,
+    "run": 2,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded128",
+    "P": 4,
+    "run": 3,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded128",
+    "P": 8,
+    "run": 1,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded128",
+    "P": 8,
+    "run": 2,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "padded128",
+    "P": 8,
+    "run": 3,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "privatized",
+    "P": 1,
+    "run": 1,
+    "counts": [
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "privatized",
+    "P": 1,
+    "run": 2,
+    "counts": [
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "privatized",
+    "P": 1,
+    "run": 3,
+    "counts": [
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "privatized",
+    "P": 2,
+    "run": 1,
+    "counts": [
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "privatized",
+    "P": 2,
+    "run": 2,
+    "counts": [
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "privatized",
+    "P": 2,
+    "run": 3,
+    "counts": [
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "privatized",
+    "P": 4,
+    "run": 1,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "privatized",
+    "P": 4,
+    "run": 2,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "privatized",
+    "P": 4,
+    "run": 3,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "privatized",
+    "P": 8,
+    "run": 1,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "privatized",
+    "P": 8,
+    "run": 2,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  },
+  {
+    "variant": "privatized",
+    "P": 8,
+    "run": 3,
+    "counts": [
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000,
+      5000000
+    ],
+    "expected_per_worker": 5000000
+  }
+]

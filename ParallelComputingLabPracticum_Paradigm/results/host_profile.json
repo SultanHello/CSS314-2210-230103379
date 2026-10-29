@@ -1,0 +1,21 @@
+{
+  "os": "macOS-15.6-arm64-arm-64bit",
+  "kernel": "24.6.0",
+  "architecture": "arm64",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "python_implementation": "CPython",
+  "logical_threads": 10,
+  "cpu_model": "Apple M4",
+  "microarchitecture": null,
+  "physical_cores": 10,
+  "base_frequency_hz": null,
+  "cache_line_bytes": null,
+  "l1_data_bytes": null,
+  "l2_bytes": null,
+  "l3_bytes": null,
+  "notes": [
+    "Unavailable sysctl fields are null; no cache sizes or clock rates are guessed. No hardware identifiers are collected."
+  ],
+  "core_description": "10 (4 performance and 6 efficiency)",
+  "student_id_length": 8
+}

@@ -1,0 +1,26 @@
+{
+  "stencil": "out[i,j]=0.2*(center+left+right+up+down); fixed input on every pass",
+  "flops_per_update": 5,
+  "bytes_per_update_no_reuse": 48,
+  "arithmetic_intensity_no_reuse": 0.10416666666666667,
+  "bytes_per_update_ideal_reuse_with_write_allocate": 24,
+  "arithmetic_intensity_ideal_reuse": 0.20833333333333334,
+  "peak_memory_bandwidth_bytes_s": null,
+  "peak_compute_flops_s": null,
+  "classification": "Low arithmetic intensity suggests memory traffic sensitivity; no measured/verified DRAM bandwidth or compute ceiling, so a definitive Roofline bound is unavailable.",
+  "cache_telemetry": {
+    "cache_line_bytes": null,
+    "l1_data_bytes": null,
+    "l2_bytes": null,
+    "l3_bytes": null
+  },
+  "amdahl_s_unconstrained_fit": 0.3913801368268132,
+  "amdahl_s_constrained_fit": 0.3913801368268132,
+  "amdahl_asymptotic_speedup": 2.555060683732406,
+  "notes": [
+    "Worker startup and one warmup pass excluded; timers span earliest worker start to latest completion. Scheduling skew remains included.",
+    "Apple M4 has performance and efficiency cores; equal-core scaling models are approximations.",
+    "Weak study logs PDF expression separately; normalized throughput speedup is work_ratio*T1/TP.",
+    "No hardware performance counters were available; cache-hit rates are not fabricated."
+  ]
+}

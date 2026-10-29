@@ -1,0 +1,24 @@
+{
+  "status": "local_checks_only",
+  "official_verifier_run": false,
+  "student_id": "30103379",
+  "checks": {
+    "matrix": {
+      "passed": true,
+      "max_abs_error": 0.0,
+      "numpy_reference_max_abs_error": 1.1368683772161603e-13,
+      "baseline_digest": "b920275f56a39a7ac0bb80f033f6d975ea3a862dbbce5890f226689aff0bb984",
+      "optimized_digest": "b920275f56a39a7ac0bb80f033f6d975ea3a862dbbce5890f226689aff0bb984"
+    },
+    "counters": {
+      "passed": true,
+      "runs": 48
+    },
+    "stencil": {
+      "passed": true,
+      "runs": 30,
+      "reference_digest": "09837170f66d3663bdb0b35057c4755d6eb12a1e6fb7eea879d90eb4bcf35fe4",
+      "parallel_digest": "09837170f66d3663bdb0b35057c4755d6eb12a1e6fb7eea879d90eb4bcf35fe4"
+    }
+  }
+}
