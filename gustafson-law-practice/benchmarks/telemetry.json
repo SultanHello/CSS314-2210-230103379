@@ -1,0 +1,64 @@
+{
+  "timestamp_utc": "2026-11-05T09:57:05.251636+00:00",
+  "platform": "macOS-15.6-arm64-arm-64bit",
+  "machine": "arm64",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "logical_cores": 10,
+  "start_method": "spawn",
+  "native_threads": 1,
+  "cpu": "Apple M4",
+  "physical_cores": 10,
+  "memory": "16 GB",
+  "performance_cores": 4,
+  "efficiency_cores": 6,
+  "cache_queries": {
+    "hw.l1dcachesize": {
+      "value": null,
+      "error": "sysctl: sysctl fmt -1 1024 1: Operation not permitted"
+    },
+    "hw.l2cachesize": {
+      "value": null,
+      "error": "sysctl: sysctl fmt -1 1024 1: Operation not permitted"
+    },
+    "hw.l3cachesize": {
+      "value": null,
+      "error": "sysctl: sysctl fmt -1 1024 1: Operation not permitted"
+    },
+    "hw.perflevel0.l2cachesize": {
+      "value": null,
+      "error": "sysctl: sysctl fmt -1 1024 1: Operation not permitted"
+    },
+    "hw.perflevel1.l2cachesize": {
+      "value": null,
+      "error": "sysctl: sysctl fmt -1 1024 1: Operation not permitted"
+    }
+  },
+  "unmeasured": [
+    "frequency",
+    "temperature",
+    "power",
+    "DRAM traffic",
+    "memory channel count",
+    "NUMA placement"
+  ],
+  "elements_per_worker": 960000,
+  "iterations": 12,
+  "repetitions": 5,
+  "process_counts": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "measured_scope": "ready pool dispatch/barrier through result collection; allocation and kernel included; spawn/import/teardown excluded",
+  "serial_scope": "same P task inputs executed sequentially in parent; kernel warmup before trials",
+  "independent_runs": "fresh ready pool for every configuration/repeat",
+  "schedule_seed": 230103379
+}
